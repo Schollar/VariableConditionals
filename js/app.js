@@ -18,6 +18,10 @@ if(age >= 18 && is_subscribed === true) {
 
 }
 
-Userinfo( 19, true);
+Userinfo(19, true);
 
-Userinfo (15, false);
+Userinfo(15, false);
+
+Userinfo(19, false);
+
+Userinfo(15, true);
