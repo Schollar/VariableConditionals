@@ -4,17 +4,17 @@
 
 function Userinfo(age, is_subscribed) {
 
-if(age >= 18 && is_subscribed) {
-    console.log("User is 18 or older and is Subscribed");
-} else if(age < 18 && is_subscribed) {
-    console.log("User is under the age of 18 and is Subscribed");
-} else if(age >= 18 && !is_subscribed) {
-    console.log("User is 18 or older but is not Subscribed");
-} else if(age < 18 && !is_subscribed) {
-    console.log("User is under 18 and not subscribed");
-} else {
-    console.log ("Invalid User data given");
-}
+    if (age >= 18 && is_subscribed) {
+        console.log("User is 18 or older and is Subscribed");
+    } else if (age < 18 && is_subscribed) {
+        console.log("User is under the age of 18 and is Subscribed");
+    } else if (age >= 18 && !is_subscribed) {
+        console.log("User is 18 or older but is not Subscribed");
+    } else if (age < 18 && !is_subscribed) {
+        console.log("User is under 18 and not subscribed");
+    } else {
+        console.log("Invalid User data given");
+    }
 
 }
 
