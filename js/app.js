@@ -1,11 +1,10 @@
 // Setup arrays and variables
 var userage = [19, 15, 19, 15];
 var is_subscribed = [true, false, false, true];
-var agelength = userage.length;
 
 
 // Setup for loop that runs through each item in the array and checks to see if subscribed, then console logs the appropriate message
-for (var i = 0; i < agelength; i++) {
+for (var i = 0; i < userage.length; i++) {
 
     if (userage[i] >= 18 && is_subscribed[i]) {
         console.log("User is 18 or older and is Subscribed");
